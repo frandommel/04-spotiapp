@@ -1,0 +1,35 @@
+
+<div class="card-columns">
+
+    <div class="card" *ngFor="let album of nuevasCanciones">
+        <img class="card-img-top" [src]= "album.images | noimage" [alt]=" album.name ">
+        <div class="card-body">
+                <h4 class="card-title"> {{ album.name }}</h4>
+
+                <p class="card-text" >
+                    <span class="badge badge-pill badge-primary" *ngFor="let artist of album.artists">{{ artist.name }}</span>
+                </p>
+        </div>
+    </div>
+</div>
+<!--Se creo el tarjeta component-->
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
