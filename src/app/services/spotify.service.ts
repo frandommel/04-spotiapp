@@ -17,7 +17,7 @@ export class SpotifyService {
 
             // header del token (expira cada 1 hora)
     const headers =  new HttpHeaders({
-      'Authorization':'Bearer BQCbTUprLZEYaPYrZ1r1topG931jr1BDsKapDfNZyW5W5zqM0tsRfjE5-VJk8DkhpRBOzIzQuECYkj8JKUE'
+      'Authorization':'Bearer BQD6jOU3Ll1g37r9UrlyHjAIffYgDFWAcaQR6JkzeTmLS8yn4kuW4_l-n1hqd5aiypxmkRsinu9TAiSvNX8'
     });
 
     return this.http.get(url, { headers });
