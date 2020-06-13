@@ -18,6 +18,8 @@ import { ROUTES } from './app.routes';
 //pipes
 import { NoimagePipe } from './pipes/noimage.pipe';
 import { TarjetaComponent } from './components/shared/tarjeta/tarjeta.component';
+import { LoadinComponent } from './components/shared/loadin/loadin.component';
+import { DomSeguroPipe } from './pipes/dom-seguro.pipe';
 
 @NgModule({
   declarations: [
@@ -27,7 +29,9 @@ import { TarjetaComponent } from './components/shared/tarjeta/tarjeta.component'
     ArtistaComponent,
     NavbarComponent,
     NoimagePipe,
-    TarjetaComponent
+    TarjetaComponent,
+    LoadinComponent,
+    DomSeguroPipe
   ],
   imports: [
     BrowserModule,
